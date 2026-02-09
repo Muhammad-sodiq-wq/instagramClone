@@ -1,8 +1,13 @@
 import React from 'react'
+import Storis from '../components/Storis'
+import InstaCardProps from '../components/Props/InstaCardProps'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Storis />
+      <InstaCardProps />
+    </div>
   )
 }
 
